@@ -1,6 +1,10 @@
+import Stoper from "./components/Stoper/Stoper";
+import './styles/normalize.scss';
+import './styles/global.scss';
+
 const App = () => {
   return (
-    <h1>Hello world</h1>
+    <Stoper/>
   );
 };
 
